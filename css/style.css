@@ -7,7 +7,9 @@
     transition: opacity .5s ease-out, visibility 0s linear .5s;
     z-index: 99999;
 }
-
+.clogo img {
+    height: 60px
+}
 #spinner.show {
     transition: opacity .5s ease-out, visibility 0s linear 0s;
     visibility: visible;
